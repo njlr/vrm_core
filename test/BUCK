@@ -1,0 +1,51 @@
+cxx_binary(
+  name = 'basic',
+  srcs = [
+    'basic/should_pass.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-core',
+  ],
+)
+
+cxx_binary(
+  name = 'assert-enabled',
+  srcs = [
+    'core/assert/assert_enabled.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-core',
+  ],
+)
+
+cxx_binary(
+  name = 'perfect-wrapper',
+  srcs = [
+    'core/perfect_wrapper/perfect_wrapper.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-core',
+  ],
+)
+
+cxx_binary(
+  name = 'streamable',
+  srcs = [
+    'core/type_traits/streamable.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-core',
+  ],
+)

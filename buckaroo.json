@@ -1,0 +1,6 @@
+{
+  "name": "vrm-core",
+  "dependencies": {
+    "vrm-pp": "0.0.1"
+  }
+}

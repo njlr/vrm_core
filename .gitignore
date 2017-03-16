@@ -201,3 +201,10 @@ asanlogs
 /.idea/encodings.xml
 /.idea/.name
 /.idea/vrm_core.iml
+
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
